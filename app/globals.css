@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+    .header {
+        @apply font-crunch-chips text-3xl md:text-5xl lg:text-[4rem]/[4rem]
+    }
+
+    .padding {
+        @apply p-8 md:p-14 lg:p-[4.875rem]
+    }
+}
+
+@theme {
+    --color-brand-green: #9BFF01;
+    --font-dm-mono: "DM Mono", "sans-serif";
+    --font-crunch-chips: "Crunch Chips", "sans-serif";
+}
