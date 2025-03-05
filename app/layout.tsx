@@ -18,6 +18,12 @@ const crunchChip = localFont({
 	display: "swap",
 });
 
+const gelica = localFont({
+    variable: "--font-gelica",
+	src: "../assets/fonts/Gelica.otf",
+	display: "swap",
+});
+
 export const metadata: Metadata = {
 	title: "Frog Face | Home",
 	description: "A movement for dreamers and fighters who refuse to stay down",
@@ -32,7 +38,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={`${dm_mono.variable}
-                    ${crunchChip.variable} antialiased font-dm-mono text-black`}
+                    ${crunchChip.variable} ${gelica.variable} antialiased font-dm-mono text-black`}
             >
                 <Header />
 

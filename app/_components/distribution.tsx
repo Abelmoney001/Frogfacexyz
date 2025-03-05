@@ -45,7 +45,7 @@ const Distribution = () => {
 					</div>
 				</div>
 
-				<div className="md:w-3/5 lg:w-1/3 mx-auto lg:mr-0">
+				<div className="md:w-3/5 lg:w-1/3 mx-auto w-4/5 lg:mr-0">
 					<Image
 						className="size-full"
 						src={DistributionDetails}

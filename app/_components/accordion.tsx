@@ -22,7 +22,7 @@ const Accordion = ({
 				type="button"
 				onClick={toggleAccordion}
 			>
-				<span className="text-xl md:text-2xl header">{question}</span>
+				<span className="header text-xl md:text-2xl">{question}</span>
 
 				<span className={`inline-block rounded-full`}>
 					{isExpanded ? (

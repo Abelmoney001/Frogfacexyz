@@ -1,17 +1,23 @@
 @import "tailwindcss";
 
 @layer base {
-    .header {
-        @apply font-crunch-chips text-3xl md:text-5xl lg:text-[4rem]/[4rem]
-    }
+	.header {
+		@apply font-crunch-chips text-3xl md:text-5xl lg:text-[4rem]/[4rem];
+	}
 
-    .padding {
-        @apply p-8 md:p-14 lg:p-[4.875rem]
+	.padding {
+		@apply py-8 px-4 sm:px-8 md:p-14 lg:p-[4.875rem] xl:px-24;
+	}
+
+    .text-outline {
+        -webkit-text-stroke: 2px white;
+        color: black;
     }
 }
 
 @theme {
-    --color-brand-green: #9BFF01;
-    --font-dm-mono: "DM Mono", "sans-serif";
-    --font-crunch-chips: "Crunch Chips", "sans-serif";
+	--color-brand-green: #9bff01;
+	--font-gelica: "Gelica", "sans-serif";
+	--font-dm-mono: "DM Mono", "sans-serif";
+	--font-crunch-chips: "Crunch Chips", "sans-serif";
 }

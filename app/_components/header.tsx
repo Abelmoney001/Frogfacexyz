@@ -4,7 +4,7 @@ import Logo from "@/assets/img/logo.png";
 
 const Header = () => {
 	return (
-		<header className="p-8 md:px-14 lg:px-[4.875rem] bg-black selection:bg-brand-green selection:text-black flex flex-wrap items-center justify-between gap-8">
+		<header className="py-8 px-4 md:px-14 lg:px-[4.875rem] bg-black selection:bg-brand-green selection:text-black flex flex-wrap items-center justify-between gap-8">
 			<Link href="/">
 				<Image
 					className="size-14"
@@ -14,7 +14,11 @@ const Header = () => {
 			</Link>
 
 			<div className="order-2 hidden md:flex items-center place-content-center gap-4 w-full md:w-auto md:order-1">
-				<Link href="">
+				<Link
+					href="https://t.me/Frogfacegenesis"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<svg
 						width="56"
 						height="56"
@@ -35,8 +39,12 @@ const Header = () => {
 					</svg>
 				</Link>
 
-				<Link href="">
-                    <svg
+				<Link
+					href="https://x.com/FrogfaceGenesis"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<svg
 						width="56"
 						height="56"
 						viewBox="0 0 56 56"
