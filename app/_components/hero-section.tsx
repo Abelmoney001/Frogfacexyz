@@ -66,6 +66,50 @@ const HeroSection = () => {
 					and the quiet strength of those told they’re not enough.
 				</p>
 			</div>
+
+			<div className="flex items-center flex-wrap mx-auto gap-4 text-center place-content-center">
+				<div className="relative inline-block after:transition-all after:ease-in-out after:duration-300 after:bg-transparent after:border after:border-brand-green after:absolute after:size-full after:inset-0 hover:after:top-1.5 hover:after:left-1.5 md:order-1">
+					<button
+						className="bg-brand-green text-black py-2.5 px-6 inline-flex items-center gap-2.5 relative z-[1024] -tracking-[2%] hover:text-black text-xl font-crunch-chips hover:gap-3 transition-all duration-300 ease-in-out group"
+						type="button"
+					>
+						Add Snapchat Filter
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+						>
+							<path
+								className="transition-all duration-300 ease-in-out group-hover:fill-black"
+								d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 11H8V13H12V16L16 12L12 8V11Z"
+								fill="black"
+							/>
+						</svg>
+					</button>
+                </div>
+
+                <div className="relative inline-block after:transition-all after:ease-in-out after:duration-300 after:bg-transparent after:border after:border-brand-green after:absolute after:size-full after:inset-0 hover:after:top-1.5 hover:after:left-1.5 md:order-1">
+					<button
+						className="bg-brand-green text-black py-2.5 px-6 inline-flex items-center gap-2.5 relative z-[1024] -tracking-[2%] hover:text-black text-xl font-crunch-chips hover:gap-3 transition-all duration-300 ease-in-out group"
+						type="button"
+					>
+						Add Tiktok Filter
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+						>
+							<path
+								className="transition-all duration-300 ease-in-out group-hover:fill-black"
+								d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 11H8V13H12V16L16 12L12 8V11Z"
+								fill="black"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
 		</section>
 	);
 };

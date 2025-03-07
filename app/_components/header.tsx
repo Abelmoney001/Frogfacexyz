@@ -15,7 +15,7 @@ const Header = () => {
 
 			<div className="order-2 hidden md:flex items-center place-content-center gap-4 w-full md:w-auto md:order-1">
 				<Link
-					href="https://t.me/Frogfacegenesis"
+					href="https://x.com/FrogfaceGenesis"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -40,7 +40,7 @@ const Header = () => {
 				</Link>
 
 				<Link
-					href="https://x.com/FrogfaceGenesis"
+					href="https://t.me/Frogfacegenesis"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
