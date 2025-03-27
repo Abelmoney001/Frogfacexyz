@@ -25,7 +25,7 @@ const SectionOne = () => {
                 <div className="relative inline-block after:transition-all after:ease-in-out after:duration-300 after:bg-transparent after:border after:border-black after:absolute after:size-full after:inset-0 hover:after:top-1.5 hover:after:left-1.5">
                     <Link
                         className="bg-black text-white/100 py-2.5 px-6 inline-flex items-center gap-2.5 relative z-[1024] -tracking-[2%] hover:text-brand-green text-xl font-crunch-chips hover:gap-3 transition-all duration-300 ease-in-out group"
-                        href=""
+                        href="https://dexscreener.com/solana/GbD4BwJfNzfWmrw4a9cCPiCeuGcrZRrUjRLkG8HgtWVt"
                     >
                         BUY $SIM5
                         <svg
