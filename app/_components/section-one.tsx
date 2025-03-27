@@ -6,7 +6,7 @@ const SectionOne = () => {
     return (
         <section className="bg-brand-green grid gap-8 md:gap-12 lg:gap-8 lg:grid-cols-2 lg:justify-between padding selection:bg-black selection:text-brand-green md:items-center">
             <div className="space-y-4 text-center lg:text-left md:space-y-6 text-lg xl:text-xl xl:leading-9">
-                <h2 className="header">$FrogFace</h2>
+                <h2 className="header">$SIM5</h2>
 
                 <p>
                     The “FROGFACE” genesis is a movement for those who feel they
@@ -45,7 +45,7 @@ const SectionOne = () => {
             </div>
 
             <div className="md:w-3/5 lg:w-4/5 mx-auto lg:mr-0">
-                <Image className="size-full" src={FrogFace} alt="$FrogFace" />
+                <Image className="size-full" src={FrogFace} alt="$SIM5" />
             </div>
         </section>
     );
